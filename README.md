@@ -20,7 +20,7 @@ Steps to make this code run:
     
  For anyone using IntelliJ, you can configure the "Program Arguments" in the configuration:
 
-  ![Configuration](IntelliJConfig.jpg)
+  ![Configuration](https://raw.githubusercontent.com/YuvalItzchakov/spark-stateful-example/master/IntelliJConfig.jpg)
 
   Otherwise you can pass it as arguments to `spark-submit` or pass them locally via your favorite IDE.
 
