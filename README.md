@@ -16,10 +16,7 @@ Steps to make this code run:
   }
   ```
 
-3. This application uses a socket stream to consume data (this was the simplest way to make this work). In order for that to work, you need to pass two arguments to the program:
-
-    a. The host
-    b. The port
+3. This application uses a socket stream to consume data (this was the simplest way to make this work). In order for that to work, you need to pass two arguments to the program: host and port
     
  For anyone using IntelliJ, you can configure the "Program Arguments" in the configuration:
 
