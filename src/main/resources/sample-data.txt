@@ -1,0 +1,6 @@
+{"id":1,"data":"Hello!","isLast":false}
+{"id":1,"data":"everyone","isLast":false}
+{"id":1,"data":"welcome to stateful streams!","isLast":true}
+{"id":2,"data": "second user","isLast":false}
+{"id":2,"data": "coming in data","isLast":false}
+{"id":2,"data": "last message for me","isLast":true}
