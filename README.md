@@ -8,25 +8,24 @@ Steps to make this code run:
 1. Clone the code
 2. Set a checkpoint directory inside the application.conf file under the "checkpoint-directory" key:
 
-```
-spark {
-  spark-master-url = "local[*]"
-  checkpoint-directory = "" 
-  timeout-in-minutes = 5
-}
-```
+  ```
+  spark {
+    spark-master-url = "local[*]"
+    checkpoint-directory = "" 
+    timeout-in-minutes = 5
+  }
+  ```
 
-3. This application uses a socket stream to consume data (this was the simplest way to make this work).
-In order for that to work, you need to pass two arguments to the program:
+3. This application uses a socket stream to consume data (this was the simplest way to make this work). In order for that to work, you need to pass two arguments to the program:
 
-  a. The host
-  b. The port
+    a. The host
+    b. The port
     
-For anyone using IntelliJ, you can configure the "Program Arguments" in the configuration:
+ For anyone using IntelliJ, you can configure the "Program Arguments" in the configuration:
 
-![Configuration](IntelliJConfig.jpg)
+  ![Configuration](IntelliJConfig.jpg)
 
-Otherwise you can pass it as arguments to `spark-submit` or pass them locally via your favorite IDE.
+  Otherwise you can pass it as arguments to `spark-submit` or pass them locally via your favorite IDE.
 
 4. Start up [netcat](http://nc110.sourceforge.net/) on the same port you pass the program.
 5. Take the data from resources/sample-data.txt and send them via netcat. 
