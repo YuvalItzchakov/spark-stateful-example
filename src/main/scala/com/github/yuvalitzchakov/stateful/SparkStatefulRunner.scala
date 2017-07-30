@@ -5,6 +5,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.streaming._
 import pureconfig._
 import argonaut.Argonaut._
+import com.github.yuvalitzchakov.user.{UserEvent, UserSession}
 
 import scalaz.{-\/, \/-}
 

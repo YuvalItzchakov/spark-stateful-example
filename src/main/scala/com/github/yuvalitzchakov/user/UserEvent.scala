@@ -1,4 +1,4 @@
-package com.github.yuvalitzchakov.stateful
+package com.github.yuvalitzchakov.user
 
 import argonaut.Argonaut._
 import argonaut.CodecJson
